@@ -1,0 +1,37 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Good day", "Whats up", "Good AM", "Good PM"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "That's all", "Bye"],
+         "responses": ["Have a nice day!", "Talk to me if you need anything else! Goodbye!", "Goodbye! Have a nice day!"],
+         "context_set": ""
+        },
+        {"tag": "about_me",
+         "patterns": ["who are you?", "what are you?", "who r u", "what do you do?"],
+         "responses": ["I am your bot assistant", "I'm an artificial intelligent bot"],
+         "context_set": ""
+        },
+        {"tag": "about_store",
+         "patterns": ["what is this store?", "what kind of store is this?"],
+         "responses": ["This is a computer hardware store", "This is a store that sells different kind of computer hardware"],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["Could you help me?", "Give me a hand please", "Can you help?", "I need support", "I need a help", "support me please"],
+         "responses": ["Yes sure, How can I support you?", "Tell me your problem to assist you.", "Please tell how can I assist you", "Kindly tell me how can I help you"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "store operating hours", "when is the store open?", "opening time?"],
+         "responses": ["We are open 24/7!"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        }
+  ]
+}
